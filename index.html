@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Lora&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class=".header">
+        <div class="profile-pic">
+            <img src="me.jpg" alt="Img" class="prof">
+            <h1>Portfolio</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Chart</a>
+            <a href="#">Contract</a>            
+        </nav>
+    </header>
+
+    <h2>About</h2>
+
+    <section class="personality">
+        <div class="pers">
+            <canvas id="personal" style="width:100%;max-width:600px"></canvas>
+            <div id="weight" style="width: 900px; height: 500px; "></div>
+        </div>
+    </section>
+
+    <h2>Skills</h2>
+
+    <section class="skills">
+        <div class="skill">
+            <canvas id="skill-now" style="width:100%;max-width:600px"></canvas>
+        </div>
+    </section>
+
+    <h2>Achivement processing/How i feel</h2>
+    
+    <div class="container">
+        <canvas id="want" style="width:100%;max-width:600px"></canvas>
+        <div id="feel" style="width: 900px; height: 500px;"></div>
+    </div>
+
+    <script src="want.js"></script>
+    <script src="fellin.js"></script>
+    <script src="personal.js"></script>
+    <script src="weight.js"></script>
+    <script src="skill.js"></script>   
+
+</body>
+</html>
